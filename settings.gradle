@@ -1,0 +1,2 @@
+include ':app', ':prdownloader', ':mylibrary'
+project(':prdownloader').projectDir = new File('prdownloader')

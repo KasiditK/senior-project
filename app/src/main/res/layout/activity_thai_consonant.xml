@@ -1,0 +1,2217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityThaiConsonant"
+    android:background="#FFB91C">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/bg_head_cardview_thai_consonant"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:elevation="5dp"
+
+            >
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:fontFamily="@font/kanit_thin"
+
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="#000"
+                android:background="@drawable/consonant"
+                />
+
+
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rowCount="3"
+                android:columnCount="2"
+                android:alignmentMode="alignMargins"
+                android:columnOrderPreserved="false"
+                >
+
+                <LinearLayout
+                    android:id="@+id/conOne"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_one"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+
+                            android:text="ก"
+                            android:textSize="50dp"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="กอ ไก่"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conTwo"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_two"/>
+
+                        <TextView
+                            android:id="@+id/con2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="ข"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ขอ ไข่"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conThree"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_three"/>
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ค"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="คอ ควาย"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conFour"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_four"/>
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ฆ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ฆอ ระฆัง"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conFive"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_five"/>
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ต"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ตอ เต่า"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conSix"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_six"/>
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ถ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ถอ ถุง"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conSeven"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_seven"/>
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ฐ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ฐอ ฐาน"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conEight"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_eight"/>
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ฒ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ฒอ ผู้เฒ่า"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conNine"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_nine"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ฑ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ฑอ มณโฑ"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conTen"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_ten"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ฏ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ฏอ ปฏัก"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conEleven"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_eleven"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ส"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="สอ เสือ"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conTwelve"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_twelve"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ศ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ศอ ศาลา"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conThirteen"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_thirteen"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ษ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ษอ บอ ฤาษี"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conFourteen"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_fourteen"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ซ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ซอ โซ่"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conFifteen"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_fifteen"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="พ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="พอ พาน"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conSixteen"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_sixteen"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ป"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ปอ ปลา"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conSeventeen"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_seventeen"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ผ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ผอ ผึ่ง"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conEightteen"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_eightteen"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ภ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ภอ สำเภา"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conNineteen"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_nineteen"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ห"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="หอ หีบ"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conTwenty"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_twenty"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ฮ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ฮอ นกฮูก"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conTwentyone"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_twentyone"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="บ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="บอ ใบไม้"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conTwentytwo"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_twentytwo"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ร"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="รอ เรือ"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conTwentythree"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_twentythree"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ว"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="วอ แหวน"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conTwentyfour"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_twentyfour"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ด"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ดอ เด็ก"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conTwentyfive"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_twentyfive"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ฎ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ฎอ ชฎา"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conTwentysix"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:background="@drawable/bg_cardview_thai_consonant"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+
+                    >
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+
+                        android:src="@mipmap/ic_thai_cosonant_twentysix"/>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ฟ"
+                        android:textSize="50dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-20dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/kanit_thin"
+                    android:textColor="#000"
+                    android:text="ฟอ ฟัน"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+                <LinearLayout
+                android:id="@+id/conTwentyseven"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:background="@drawable/bg_cardview_thai_consonant"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+
+                    >
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+
+                        android:src="@mipmap/ic_thai_cosonant_twentyseven"/>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ฝ"
+                        android:textSize="50dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-20dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/kanit_thin"
+                    android:textColor="#000"
+                    android:text="ฝอ ฝา"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+                <LinearLayout
+                android:id="@+id/conTwentyeight"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:background="@drawable/bg_cardview_thai_consonant"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+
+                    >
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+
+                        android:src="@mipmap/ic_thai_cosonant_twentyeight"/>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ล"
+                        android:textSize="50dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-20dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/kanit_thin"
+                    android:textColor="#000"
+                    android:text="ลอ ลิง"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+                <LinearLayout
+                android:id="@+id/conTwentynine"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:background="@drawable/bg_cardview_thai_consonant"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+
+                    >
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+
+                        android:src="@mipmap/ic_thai_cosonant_twentynine"/>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ฬ"
+                        android:textSize="50dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-20dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/kanit_thin"
+                    android:textColor="#000"
+                    android:text="ฬอ จุฬา"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conThirty"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_thirty"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="จ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="จอ จาน"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conThirtyone"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_thirtyone"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ย"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ยอ ยักษ์"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conThirtytwo"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_thirtytwo"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ญ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ญอ หญิง"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conThirtythree"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_thirtythree"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ม"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="มอ ม้า"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conThirtyfour"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_thirtyfour"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="น"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="นอ หนู"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conThirtyfive"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_thirtyfive"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ณ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ณอ เณร"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conThirtysix"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_thirtysix"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ง"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="งอ งู"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conThirtyseven"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_thirtyseven"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ท"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ทอ ทหาร"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conThirtyeight"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_thirtyeight"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ธ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ธอ ธง"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conThirtynine"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_thirtynine"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ฉ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ฉอ ฉิ่ง"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conFourty"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_fourty"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ช"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ชอ ช้าง"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conFourtyone"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_fourtyone"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="ฌ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="ฌ เฌอ"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/conFourtytwo"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+
+                        >
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+
+                            android:src="@mipmap/ic_thai_cosonant_fourtytwo"/>
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:textColor="#000"
+                            android:text="อ"
+                            android:textSize="50dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/kanit_thin"
+                        android:textColor="#000"
+                        android:text="อ อ่าง"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+
+
+            </GridLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Thai Sign Language</string>
+    <string name="open">Open</string>
+    <string name="close"></string>
+    <string name="pause">pause</string>
+    <string name="error">ERROR</string>
+</resources>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityThaiConsonant"
+    android:background="#FFB91C">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_head_cardview_thai_consonant"
+            android:elevation="5dp"
+            android:gravity="center"
+
+            >
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/volwe"
+                android:fontFamily="@font/kanit_thin"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:columnOrderPreserved="false"
+                android:rowCount="3">
+
+                <LinearLayout
+                    android:id="@+id/toneOne"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:padding="5dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+
+                        >
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="70dp"
+                            android:src="@mipmap/ic_action_tone_aek" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:text="ไม้เอก"
+                            android:textColor="#000"
+                            android:textSize="50dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/toneTwo"
+                    android:padding="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+
+                        >
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="70dp"
+                            android:src="@mipmap/ic_action_tone_to" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:text="ไม้โท"
+                            android:textColor="#000"
+
+                            android:textSize="50dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="5dp"
+                    android:id="@+id/toneThree"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+
+                        >
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="70dp"
+                            android:src="@mipmap/ic_action_tone_tee" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:text="ไม้ตรี"
+                            android:textColor="#000"
+                            android:textSize="50dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="5dp"
+                    android:id="@+id/toneFour"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/bg_cardview_thai_consonant"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+
+                        >
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="70dp"
+                            android:src="@mipmap/ic_action_tone_judtava" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:fontFamily="@font/kanit_thin"
+                            android:text="ไม้จัตวา"
+                            android:textColor="#000"
+                            android:textSize="50dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </GridLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

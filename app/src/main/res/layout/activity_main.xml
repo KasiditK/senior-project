@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_testone"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <!--<ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/logo_maintwo" />-->
+    <!-- Cardview Main Menu -->
+    <!--<android.support.v7.widget.CardView
+        android:id="@+id/cardview9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/app_bar_main_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/antic"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Main Menu"
+                android:textColor="#000000"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>-->
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@android:color/transparent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal"
+            >
+
+            // 1st CardView
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView1"
+                android:layout_width="180dp"
+                android:layout_height="250dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="#c2603e">
+                <!--035c6b-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:background="@mipmap/ic_action_play"
+
+                        android:padding="50dp" />
+
+                    <TextView
+                        android:id="@+id/menu1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/antic"
+                        android:text="Thai Sign Language"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="#edcc21" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="แสดงวีดีโอภาษามือ" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            // 2nd CardView
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="180dp"
+                android:layout_height="250dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="#FF84B5C8">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@mipmap/ic_action_cons"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/antic"
+                        android:text="Thai Consonant"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="#edcc21" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="ตัวสะกดภาษาไทย" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+</LinearLayout>
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            // 3th CardView
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="180dp"
+                android:layout_height="250dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:background="@mipmap/ic_action_download"
+
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/antic"
+                        android:text="Download"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="#edcc21" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="ดาวน์โหลดหมวดคำศัพท์" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            // 4th CardView
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView4"
+                android:layout_width="180dp"
+                android:layout_height="250dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:background="@mipmap/ic_action_contact"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/antic"
+                        android:text="About US"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="#edcc21" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="ติดต่อพวกเรา" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>-->
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="14dp"
+            android:backgroundTint="#f0a61a"
+            android:src="@mipmap/ic_setting"
+            app:fabSize="normal" />
+        <include layout="@layout/fab_menu"
+            />
+        </android.support.design.widget.CoordinatorLayout>
+    </LinearLayout>
+
+</LinearLayout>

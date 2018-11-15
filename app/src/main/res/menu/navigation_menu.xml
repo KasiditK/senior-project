@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/downloadOne"
+        android:title="คำศัพท์หมวด การสะกดคำ"
+
+
+        />
+
+    <item
+        android:id="@+id/downloadTwo"
+        android:title="คำศัพท์หมวด ชีวิตประจำวัน"
+
+        />
+
+    <item
+        android:id="@+id/downloadThree"
+        android:title="คำศัพท์หมวด การเดินทาง"
+        />
+
+    <item
+        android:id="@+id/downloadFour"
+        android:title="ศัพท์หมวด ภาษาอีสาน"
+        />
+
+
+
+
+</menu>

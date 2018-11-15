@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityDownload"
+    android:background="#fff"
+    >
+
+    <LinearLayout
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_head_menu_download"
+        android:elevation="5dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:fontFamily="@font/kanit_thin"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="ดาวน์โหลด"
+            android:textSize="25dp"
+
+            />
+    </LinearLayout>
+
+    <!-- 1 -->
+
+    <LinearLayout
+
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:padding="16dp"
+        android:background="@drawable/border_menu_download"
+        android:orientation="horizontal"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/ic_logo_download_comucation"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:text="หมวดการสื่อสาร"
+                android:fontFamily="@font/kanit_thin"/>
+            <TextView
+                android:id="@+id/textProgressCommunication"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:text="ขนาดไฟล์ 500 Mb"
+                android:fontFamily="@font/kanit_thin"/>
+
+            <ProgressBar
+                android:id="@+id/progressBarCommunication"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:progressTint="#000" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/downloadCommunication"
+            android:layout_marginLeft="60dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_button_download"/>
+        <Button
+            android:id="@+id/deleteCommunication"
+            android:layout_marginLeft="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_button_delete"/>
+
+    </LinearLayout>
+
+
+    <!-- 2 -->
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:padding="16dp"
+        android:background="@drawable/border_menu_download"
+        android:orientation="horizontal"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/ic_logo_download_dailylife"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:text="หมวดชีวิตประจำวัน"
+                android:fontFamily="@font/kanit_thin"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:text="ขนาดไฟล์ 500 Mb"
+                android:fontFamily="@font/kanit_thin"/>
+            <ProgressBar
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:progressTint="#000" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginLeft="45dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_button_download"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_button_delete"/>
+
+
+    </LinearLayout>
+
+    <!-- 3 -->
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:padding="16dp"
+        android:background="@drawable/border_menu_download"
+        android:orientation="horizontal"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/ic_logo_download_travel"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:text="หมวดการเดินทาง"
+                android:fontFamily="@font/kanit_thin"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:text="ขนาดไฟล์ 500 Mb"
+                android:fontFamily="@font/kanit_thin"/>
+            <ProgressBar
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:progressTint="#000" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginLeft="55dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_button_download"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_button_delete"/>
+    </LinearLayout>
+
+    <!-- 4 -->
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:padding="16dp"
+        android:background="@drawable/border_menu_download"
+        android:orientation="horizontal"
+        android:elevation="5dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="#000"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:text="หมวดภาษาอีสาน"
+                android:fontFamily="@font/kanit_thin"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:text="ขนาดไฟล์ 500 Mb"
+                android:fontFamily="@font/kanit_thin"/>
+            <ProgressBar
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:progressTint="#000" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginLeft="60dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_button_download"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_button_delete"/>
+    </LinearLayout>
+
+</LinearLayout>
